@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:src="@drawable/android_logo"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <ImageView
+        android:id="@+id/google_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/google_logo"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/google_t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/google_l"
+        android:text="@string/google_dis"/>
+    <TextView
+        android:layout_marginTop="9dp"
+        android:id="@+id/loca"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/baseline_location_on_24_w"
+        android:layout_height="wrap_content"
+        android:text="@string/Location"
+        app:layout_constraintTop_toBottomOf="@id/google_t"
+        android:drawablePadding="5dp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/loca"
+        android:text="@string/google_page"
+        android:textColor="@color/blue"
+        android:drawableStart="@drawable/baseline_home_24"
+        android:drawablePadding="5dp"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

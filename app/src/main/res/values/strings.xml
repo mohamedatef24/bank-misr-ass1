@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Empty views first app</string>
+    <string name="google_dis">Google is an American search engine company, founded in 1998 by Sergey Brin and Larry Page. Since 2015, Google has been a subsidiary of the holding company Alphabet, Inc. More than 70% of worldwide online search requests are handled by Google, placing it at the heart of most Internet users\' experience</string>
+    <string name="Location">Mountain View, California, United States</string>
+    <string name="google_page"><u>google.com</u></string>
+</resources>
